@@ -8,12 +8,7 @@ using UnityStandardAssets.Utility;
 using UnityEditor;
 #endif
 
-/**
- * Created by Zaneris.
- * Follows the route of a WaypointCircuit at a constant speed.
- * Enables Waypoint based speed settings.
- * Enables invoke of method calls triggered by waypoints.
- **/
+
 public class BetterWaypointFollower : MonoBehaviour {
     public UnityEngine.Object circuitObject;
     public WaypointCircuit circuit;
